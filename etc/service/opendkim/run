@@ -1,0 +1,3 @@
+#!/bin/bash -e
+
+exec /usr/sbin/opendkim -f -x $OPENDKIM_CONFIG_FILE 2>&1

@@ -1,0 +1,3 @@
+#!/bin/bash -e
+# see http://www.devblogrbmz.com/syslog-logging-to-stdout-in-a-docker-container/
+exec /sbin/syslogd -n -O /dev/stdout
